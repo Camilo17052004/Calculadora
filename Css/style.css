@@ -1,0 +1,60 @@
+/* estilos.css */
+
+body {
+    background: #222;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caja {
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    box-shadow:
+    0 0 15px #00e93a,
+    0 0 20px #00ff80,
+    0 0 15px #00f8ae;
+}
+
+.pantalla {
+    background: black;
+    color: lime;
+    height: 60px;
+    font-size: 2em;
+    padding: 10px;
+    text-align: right;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    gap: 10px;
+}
+
+button {
+    height: 60px;
+    font-size: 1.2em;
+    background: #555;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #777;
+}
+
+.cero {
+    grid-column: span 2;
+}
+
+
